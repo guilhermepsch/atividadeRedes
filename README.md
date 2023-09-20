@@ -37,7 +37,3 @@ O arquivo realizará as operações de criptografia e salvará os resultados em 
 - `encryptedKeyAndIV.txt`: Chave e IV criptografados
 
 Após a execução bem-sucedida, uma mensagem será exibida informando que as credenciais e chaves foram armazenadas com segurança.
-
-Agora você pode usar os arquivos criptografados conforme necessário em seu aplicativo ou sistema.
-
-**Nota:** Mantenha as informações criptografadas (nome de usuário, senha e chaves) em um local seguro, pois são essenciais para descriptografar as informações posteriormente. A perda das chaves pode resultar na impossibilidade de recuperar os dados criptografados.
