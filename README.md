@@ -28,12 +28,10 @@ node index.js
 
 ## Executando
 
-O programa solicitará que você insira um nome de usuário e uma senha. Digite as informações solicitadas.
+O programa solicitará que você escolha entre se registrar o use logar.
 
-O arquivo realizará as operações de criptografia e salvará os resultados em arquivos de saída:
+Se você escolher se registrar, o programa irá criar um arquivo chamado `users.json` caso já não exista, e irá persistir os usuários lá dentro.
 
-- `encryptedUsername.txt`: Nome de usuário criptografado
-- `encryptedPassword.txt`: Senha criptografada
-- `encryptedKeyAndIV.txt`: Chave e IV criptografados
+Se você escolher se logar, o programa irá seguir com o fluxo de login e verificar se as informações inseridas existem.
 
-Após a execução bem-sucedida, uma mensagem será exibida informando que as credenciais e chaves foram armazenadas com segurança.
+Após a execução bem-sucedida, uma mensagem será exibida do resultado da operação correspondente.
